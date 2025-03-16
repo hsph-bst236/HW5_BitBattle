@@ -63,19 +63,23 @@ Lemma (R. Strebel). Let $n$ be a positive integer and $f_n(x) = (x + n)^{-\alpha
 $$
 \phi_n(\xi) = \frac{n^{1+\beta} (n - \xi)^{-\beta}}{\beta} - \frac{n}{\beta} - \frac{(1 + \beta) \xi^2}{2n}, \quad \beta = \frac{6}{\alpha - 1},
 $$
+
 is strictly increasing and maps $[0,n)$ onto $[0,\infty)$. Then
 
 $$
 \sum_{k=0}^{\infty} f_n(k) = \sum_{k=0}^{n-1} \phi_n'(k) \cdot f_n(\phi_n(k)) + O(n^{-3-\alpha}).
 $$
+
 For problem 1, we roughly have $\alpha = 4$.
 
 
-Actually, choosing the following 
+Choosing the following 
+
 $$
 \phi_{\exp}(\xi) = \exp\left(\frac{2}{(1-u)^2} -\frac{1}{2u^2}\right)
 $$
-will make even faster convergence though it is hard to prove.
+
+will make even faster convergence, though it is hard to prove.
 
 There are even faster approximation methods using the contour integral on the complex plane. See Section 3.6 in `problem1_answer.pdf` for more details.
 
