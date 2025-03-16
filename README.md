@@ -27,7 +27,7 @@ In `problem1.py`, we implemented the power method combined with the Strebel’s 
 Since we are implementing the power method, it involves the matrix-vector multiplication like
 
 $$
-(M x)_j  = \sum_{k=1}^{\infty} M_{jk} x_k
+(M x)_{j}  = \sum_{k=1}^{\infty} M_{jk} x_k
 $$
 
 Euler-Maclaurin formula aims to convert the infinite sum into a finite sum. Let us first consider the integral. We aim to find a one-to-one mapping $\phi: [1,n] \to [1,\infty)$ such that by change of the variable:
