@@ -77,6 +77,7 @@ $$
 $$
 will make even faster convergence though it is hard to prove.
 
+There are even faster approximation methods using the contour integral on the complex plane. See Section 3.6 in `problem1_answer.pdf` for more details.
 
 
 
